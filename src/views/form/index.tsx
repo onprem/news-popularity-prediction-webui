@@ -19,7 +19,7 @@ const Form = () => {
   const { register, handleSubmit } = useForm<FormValues>();
 
   const fetchScore = (payload: FormValues) => {
-    fetch("/predict", {
+    fetch("/api/predict", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
