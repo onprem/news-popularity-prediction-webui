@@ -1,0 +1,50 @@
+.container {
+  width: 100%;
+  padding: 1rem 25vw;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form input,
+.form textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.5rem 2rem;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+.group > input {
+  width: 49%;
+}
+
+.form > textarea {
+  min-height: 20rem;
+}
+
+.submit {
+  margin: 1rem 0;
+  padding: 1rem 3rem;
+  box-sizing: border-box;
+  background: cornflowerblue;
+  color: white;
+  border: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
